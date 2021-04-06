@@ -1,0 +1,23 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "assert": "^2.0.0"
+  },
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjaySunil/Algorithms.git"
+  },
+  "author": "Sanjay Sunil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanjaySunil/Algorithms/issues"
+  },
+  "homepage": "https://github.com/SanjaySunil/Algorithms#readme"
+}
