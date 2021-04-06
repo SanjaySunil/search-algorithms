@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "mocha": "^8.3.2",
-    "assert": "^2.0.0"
+    "assert": "^2.0.0",
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.3.2"
   },
   "scripts": {
     "test": "mocha ./tests"

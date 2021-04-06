@@ -1,7 +1,7 @@
 /**
  * Binary Search Algorithm
- * @param {Array} arr - The array to search through
- * @param {Number} key - The key to search for
+ * @param {Array} arr - The array to search
+ * @param {Number} key - The key to target
  * @return {Number} - Index where the key was found
  */
 
