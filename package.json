@@ -11,7 +11,8 @@
     "mocha": "^8.3.2"
   },
   "scripts": {
-    "test": "mocha ./tests"
+    "test": "mocha ./tests",
+    "lint": "eslint ./src --fix"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SanjaySunil/Algorithms/issues"
   },
-  "homepage": "https://github.com/SanjaySunil/Algorithms#readme"
+  "homepage": "https://github.com/SanjaySunil/Algorithms#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3"
+  }
 }

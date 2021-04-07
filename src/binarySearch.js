@@ -1,8 +1,9 @@
 /**
  * Binary Search Algorithm
  * @param {Array} arr - The array to search
- * @param {Number} key - The key to target
- * @return {Number} - Index where the key was found
+ * @param {Number} key - The key to search for
+ * @returns {Number} - Returns index of where key is located in the array.
+ * Returns -1 if key was not found.
  */
 
 function binarySearch(arr, key) {
