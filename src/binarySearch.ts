@@ -1,12 +1,11 @@
+export type binarySearch = (arr: number[], key: number) => number;
 /**
- * Binary Search Algorithm
  * @param {Array} arr - The array to search
  * @param {Number} key - The key to search for
  * @returns {Number} - Returns index of where key is located in the array.
  * Returns -1 if key was not found.
  */
-
-function binarySearch(arr, key) {
+export const binarySearch : binarySearch = (arr, key) => {
   let start = 0;
   let end = arr.length - 1;
   while (start <= end) {
@@ -25,5 +24,3 @@ function binarySearch(arr, key) {
   // Key was not found.
   return -1;
 }
-
-module.exports = binarySearch;
