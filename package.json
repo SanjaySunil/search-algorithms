@@ -14,8 +14,10 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "test": "mocha ./tests",
-    "lint": "eslint ./src --fix"
+    "build": "tsc",
+    "test": "mocha --require ts-node/register --extensions .ts",
+    "lint": "npx eslint . --ext .ts",
+    "lint:fix": "npx eslint . --ext .ts --fix"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/SanjaySunil/Algorithms/issues"
   },
-  "homepage": "https://github.com/SanjaySunil/Algorithms#readme"
+  "homepage": "https://github.com/SanjaySunil/Algorithms#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1"
+  }
 }
