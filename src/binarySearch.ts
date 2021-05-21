@@ -2,8 +2,7 @@ export type binarySearch = (arr: number[], key: number) => number;
 /**
  * @param {Array} arr - The array to search
  * @param {Number} key - The key to search for
- * @returns {Number} - Returns index of where key is located in the array.
- * Returns -1 if key was not found.
+ * @return {Number} - Returns index of where the key is located in the array.
  */
 export const binarySearch : binarySearch = (arr, key) => {
   let start = 0;
@@ -23,4 +22,4 @@ export const binarySearch : binarySearch = (arr, key) => {
   }
   // Key was not found.
   return -1;
-}
+};
