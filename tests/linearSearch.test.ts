@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-const assert = require('assert');
-const linearSearch = require('../src/linearSearch');
+import { assert } from 'chai';
+import { linearSearch } from '../src/linearSearch';
 
 describe('Linear Search', () => {
   it('Executes linear search and key is found in index 3.', () => {

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-const assert = require('assert');
-const binarySearch = require('../src/binarySearch');
+import { assert } from 'chai';
+import { binarySearch } from '../src/binarySearch';
 
 describe('Binary Search', () => {
   it('Executes binary search and key is found in index 3.', () => {

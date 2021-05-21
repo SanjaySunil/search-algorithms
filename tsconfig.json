@@ -24,7 +24,9 @@
     "target": "es6"
   },
   "exclude": [
-    "node_modules"
+    "./tests/",
+    "./node_modules/",
+    "./dist/"
   ],
   "include": [
     "src/**/*"
