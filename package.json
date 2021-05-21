@@ -26,7 +26,11 @@
     "type": "git",
     "url": "git+https://github.com/SanjaySunil/search-algorithms.git"
   },
-  "author": "Sanjay Sunil",
+  "author": {
+    "name": "Sanjay Sunil",
+    "email": "sanjaysunil@protonmail.com",
+    "url": "https://sanjaysunil.me"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SanjaySunil/search-algorithms/issues"
