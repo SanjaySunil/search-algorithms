@@ -29,8 +29,5 @@
   "bugs": {
     "url": "https://github.com/SanjaySunil/search-algorithms/issues"
   },
-  "homepage": "https://github.com/SanjaySunil/search-algorithms#readme",
-  "dependencies": {
-    "ts-node": "^9.1.1"
-  }
+  "homepage": "https://github.com/SanjaySunil/search-algorithms#readme"
 }
