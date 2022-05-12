@@ -5,7 +5,7 @@
   "main": "index.js",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "@types/chai": "^4.2.18",
     "@types/mocha": "^9.1.1",
     "eslint": "^7.26.0",
